@@ -1,0 +1,66 @@
+/*custom properties*/
+:root{
+    --color1: #FDA354;
+    --color2: #584b53;
+    --color3: #9d5c63;
+    --color4: #d6e3f8;
+    --color5: #a7c4c2;
+}
+
+
+
+
+/*global setting */
+*{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+      /* Set font size for easy rem calculations
+   * default document font size = 16px, 1rem = 16px, 100% = 16px
+   * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
+  */
+  font-size: 62.5%;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 5rem;
+}
+
+.container-for-picture{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container-for-picture img{
+    text-align: center;
+    width: 500px;
+    height: 30vh
+}
+
+.container-for-picture blockquote{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-style: italic;
+}
+.text{
+    padding: 30px 30px 30px 30px;
+}
+p{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+li{
+    font-size: 1.5rem;
+}
