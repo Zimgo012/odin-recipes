@@ -1,0 +1,95 @@
+/*custom properties*/
+:root{
+    --color1: #FDA354;
+    --color2: #584b53;
+    --color3: #9d5c63;
+    --color4: #d6e3f8;
+    --color5: #a7c4c2;
+}
+
+
+
+
+/*global setting */
+*{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+      /* Set font size for easy rem calculations
+   * default document font size = 16px, 1rem = 16px, 100% = 16px
+   * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
+  */
+  font-size: 62.5%;
+}
+
+
+
+
+header{
+    
+    max-width: 100%;
+    text-align: center;
+
+
+}
+
+header img{
+    max-width: 300px;
+    align-items: center;
+    width: 250px;
+    height: 11vh;
+    margin: 5px auto;
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color: var(--color2);
+}
+
+.main-content{
+    padding: 5%;
+    min-height: 100%;
+}
+
+.recipe{
+    display: grid;
+    height: 100%;
+    grid-gap: 100px;
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(2, 200px);
+    justify-content: space-evenly;
+
+}
+
+
+.recipe_block{
+    background-color: #9d5c63;
+    color: whitesmoke;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 15px 15px 15px 15px;
+
+}
+
+.recipe_block a img{
+    width: 500px;
+    object-fit: cover;
+    transition: all ease-in-out 300ms;
+}
+
+.recipe_block a img:hover{
+      transform: scale(1.5, 1.5);
+}
+
