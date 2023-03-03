@@ -1,2 +1,2 @@
 # odin-recipes
-Odin Recipe Project
+Odin Recipe Project (This is a PINOY STYLE RECIPE lol) 
